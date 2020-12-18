@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Pin";
+    src: url("../fonts/10467.ttf");
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2e333a;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #2e333a;
+    opacity: 0.8;
+}
+
+#about{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-family: "Times New Roman", sans-serif;
+    align-items: center;
+}
+
+#koco{
+    font-family: Pin, sans-serif;
+    font-size: 4vmin;
+    font-weight: normal;
+    margin: 0.3%;
+}
+
+a {
+    margin: 0.6%;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-weight: normal;
+}
+
+#sevenbooks{
+    background-image: url("../image/заголовок.jpg");
+    height: 50vmax;
+}
+
+#sevenbooks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titleofseven {
+    backdrop-filter:blur(5px);
+    border:4px solid black;
+    color: white;
+    border-radius: 40px;
+}
+
+#h1title{
+    font-size: 4vmax;
+    font-weight: normal;
+}
+
+#gallery{
+    display: block;
+    padding: 10%;
+}
+
+#galleryimg {
+    display: flex;
+    margin: auto;
+}
+
+#gallerybutton {
+    font-size: 100%;
+    float: right;
+    margin-top: 20%;
+}
+
+.titlesale{
+    font-size: 4vmax;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+#saleflex{
+    display: flex;
+    justify-content: center;
+}
+
+.descsale{
+    margin-left: 10%;
+    color: white;
+    font-weight: normal;
+}
+
+#instead{
+    color:gray;
+    text-decoration: line-through
+}
+
+.buy{
+    position: absolute;
+    height: 10%;
+    font-size: 2vmax;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-right: -35%;
+    background-color: orange;
+
+}
+
+#bestsale{
+    padding: 10%;
+}
+
+#bestsaleformula{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bestsaleh1{
+    color: white;
+    font-weight: normal;
+}
+
+#reviewsblocks{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.review{
+    display: flex;
+    margin: 1%;
+    width: 40vmax;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: gray;
+    border-radius: 40px;
+}
+
+.reviewtext {
+    margin-left: 10%;
+}
+
+#request{
+    padding: 10%;
+}
+
+#requestform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#manager{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: normal;
+    font-size: 1vmax;
+    margin-top:-2%;
+}
+
+.requestinfo{
+    color: white;
+    font-weight: normal;
+}
+
+.requestinput{
+    font-size: 100%;
+    height: 2vmax;
+    width: 20vmax;
+}
+
+#address{
+    padding: 10%;
+}
+
+#flexaddress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pointmap{
+    margin-left: 5%;
+}
+
+#mapdescr{
+    margin-left: 2%;
+    color: white;
+    font-weight: normal;
+}
+
+#books{
+    padding: 10%;
+}
+
+#pictures{
+    display: inline-block;
+    width: 50%;
+}
+
+#text{
+    display: inline;
+    width: 50%;
+    float: right;
+}
+
+#finaltext{
+    margin: 0;
+    color: white;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
