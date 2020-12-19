@@ -50,6 +50,7 @@ h2{
 #sevenbooks{
     background-image: url("../image/заголовок.jpg");
     height: 50vmax;
+    text-align: center;
 }
 
 #sevenbooks {
@@ -125,6 +126,7 @@ h2{
 
 #bestsale{
     padding: 10%;
+    text-align: center;
 }
 
 #bestsaleformula{
